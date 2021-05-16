@@ -100,3 +100,5 @@ For reusability,App.js was broken into :
 Also 2 pages were created. The pages are:
 * HomePage
 * SearchPage
+
+React Router router was implemented using ** npm i 'react-router-dom' ** in order to navigate from the homepage to the search page and vice-versa
