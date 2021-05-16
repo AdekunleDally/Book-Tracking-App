@@ -96,3 +96,7 @@ For reusability,App.js was broken into :
 * Bookshelf component
 * Book Component
 * search-button component
+
+Also 2 pages were created. The pages are:
+* HomePage
+* SearchPage
