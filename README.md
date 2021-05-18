@@ -101,4 +101,7 @@ Also 2 pages were created. The pages are:
 * HomePage
 * SearchPage
 
-React Router router was implemented using ** npm i 'react-router-dom' ** in order to navigate from the homepage to the search page and vice-versa
+React Router router was implemented using **npm i 'react-router-dom'** in order to navigate from the homepage to the search page and vice-versa
+
+ContextAPI was implemented for state management
+The main page control feature which allows users to move books between shelves was implemented
