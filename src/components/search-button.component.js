@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
+import add from '../icons/add.svg'
 
 class SearchButton extends Component{
   render(){
     return(
       <div className="open-search">
-        <button onClick={() => this.setState({ showSearchPage: true })}>Add a book</button>
+        <Link to ="/searchpage">
+          <img src={add} alt=""/>
+        </Link>
       </div>
       )
   }
