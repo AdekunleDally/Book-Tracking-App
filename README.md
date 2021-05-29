@@ -28,3 +28,4 @@ React Router router was implemented using **npm i 'react-router-dom'** in order 
 
 ContextAPI was implemented for state management
 The main page control feature which allows users to move books between shelves was implemented
+ A Search page feature on the search page allows the user to search and select “currently reading”, “want to read”, or “read” to place the book in a certain shelf. 
