@@ -59,11 +59,13 @@ class SearchPage extends Component{
                    searchBook => searchBook.id === book.id
                     );
 
-                  discoveredShelf ? book.shelf = discoveredShelf.shelf :   book.shelf = "none"
-                 return (<Book key={book.id} {...book} moveBook={this.props.moveBook} />);
+                 discoveredShelf ? book.shelf = discoveredShelf.shelf: book.shelf = "none" 
+                 return (
+                   <Book key={book.id} {...book} moveBook={this.props.moveBook} />
+                 );
                 }
                 )}
-                {this.state.length === 0 && <h1 style={{textAlign:"center"}}>No record found</h1>}
+                {this.state.books.length === 0 && <h1 style={{textAlign:"center"}}>No records found</h1>}
               </ol>
             </div>
           </div>

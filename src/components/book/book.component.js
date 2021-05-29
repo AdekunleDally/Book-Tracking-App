@@ -34,7 +34,7 @@ const Book=(props)=>{
       </div>
       </div>
       <div className="book-title"> {props.title}</div>
-      <div className="book-authors">{props.authors? props.authors[0] : "Does not have an Author"}</div>
+      <div className="book-authors">{props.authors? props.authors : "Does not have an Author"}</div>
       </div>
     </li>
   )

@@ -7,7 +7,7 @@ class HomePage extends Component{
   async componentDidMount(){
     try{
       const books = await getAll();
-     // console.log(books)
+      console.log(books)
       this.props.attachBooks(books)
       //console.log(this.props)
     }catch(e){
